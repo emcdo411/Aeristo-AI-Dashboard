@@ -720,7 +720,7 @@ server <- function(input, output, session) {
     filename = function() { "Aeristo_Sustainability_Report.xlsx" },
     content = function(file) {
       write_xlsx(compliance_data, file)
-    }
+    )
   )
   
   # Supply Chain Outputs
@@ -807,7 +807,7 @@ server <- function(input, output, session) {
     filename = function() { "Aeristo_Supply_Chain_Report.xlsx" },
     content = function(file) {
       write_xlsx(order_data, file)
-    }
+    )
   )
   
   # Real-Time Anomaly Alerts
@@ -872,3 +872,4 @@ Power BI for UI/UX inspiration.
 
 
 Source: Aeristo ERP, Quality Control Systems, June 2025 | Powered by AI & R Shiny```
+
